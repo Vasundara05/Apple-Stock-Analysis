@@ -28,7 +28,7 @@ git clone https://github.com/Vasundara05/Apple-Stock-Analysis.git
 
    Change to the project directory:
    
-   '''bash
+   ```bash
    cd Apple-Stock-Analysis
    
 
@@ -36,7 +36,7 @@ git clone https://github.com/Vasundara05/Apple-Stock-Analysis.git
 
    Make sure you have Python installed. It’s recommended to use a virtual environment. You can create and activate one using the following commands:
 
-
+   ```bash
    python -m venv env
    source env/bin/activate  # On Windows, use `env\Scripts\activate`
   
@@ -44,16 +44,18 @@ git clone https://github.com/Vasundara05/Apple-Stock-Analysis.git
 5. Install Dependencies
 
    Install the required Python libraries using `pip`:
+   ```bash
    pip install yfinance seaborn matplotlib pandas
    
 
-6. Launch Jupyter Notebook
+7. Launch Jupyter Notebook
 
    Start Jupyter Notebook to open the notebook file:
+   ```bash
    jupyter notebook Applestockanalysis.ipynb
   
 
-7. Run the Notebook
+9. Run the Notebook
 
    - Open the `Applestockanalysis.ipynb` notebook in your browser.
    - Execute the cells in order to perform the analysis and visualize the results.
