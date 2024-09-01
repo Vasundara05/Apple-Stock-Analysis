@@ -28,6 +28,7 @@ git clone https://github.com/Vasundara05/Apple-Stock-Analysis.git
 
    Change to the project directory:
    
+   '''bash
    cd Apple-Stock-Analysis
    
 
